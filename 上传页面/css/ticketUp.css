@@ -1,0 +1,16 @@
+.addTicket table td,.addTicket table th{
+	text-align: center;
+	border: 1px solid #ccc;
+	padding: 5px;
+}
+
+.addTicket table.inner_tbl{
+	width: 100%;
+}
+
+.addTicket table.inner_tbl td{
+	border: none;
+	/*padding: 0;*/
+	
+}
+
