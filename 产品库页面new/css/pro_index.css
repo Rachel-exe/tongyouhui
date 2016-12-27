@@ -1,0 +1,111 @@
+/*header部分开始*/
+*{
+	font-family: MicrosoftYaHei;
+}
+.header-top div,.header-top ul,.header-top li{
+	display: inline-block;
+}
+.header-top{
+	width: 100%;
+	height: 26px;
+	font-size: 12px;
+}
+.top-links{
+	float: right;
+}
+.header-main{
+	position: relative;
+	width: 1245px;
+	margin: 0 auto;
+}
+.header-main div{
+	display: inline-block;
+}
+.header-main>img{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	margin-left: 50px;
+}
+.header-main .website{
+	height: 100px;
+	margin-left: 160px;
+}
+.header-main .website>span{
+	display: block;
+	
+	padding: 30px 0;
+}
+.header-main .search-container{
+	border: 1px solid red;
+	border-radius: 2px;
+	height: 36px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -94px;
+	margin-top: -18px;
+}
+.header-main .search-container input{
+	border: none;
+}
+.header-main .search-container span{
+	display: inline-block;
+	background-color: red;
+}
+.header-main .search-container a{
+	
+	color: #fff;
+	line-height: 36px;
+}
+.header-nav{
+	width: 100%;
+	background: #4C4C4C;
+	text-align: center;
+}
+
+.header-nav ul{
+	width: 1245px;
+	height: 50px;
+	/*border: 1px solid #fff;*/
+}
+.header-nav ul li{
+	display: inline-block;
+	margin: 0 26px;
+	
+}
+.header-nav ul a{
+	text-decoration: none;
+	color: #fff;
+	line-height: 50px;
+	font-size: 24px;
+
+}
+/*header部分结束*/
+/*瀑布流部分*/
+.flow-container{
+	width: 1245px;
+	margin: 0 auto;
+	border: 1px solid black;
+}
+.flow-container:after{
+	content: "";
+	display: table;
+	clear:both;
+}
+.flow-fir,.flow-thir{
+	width: 260px;
+	height: 1000px;
+	border: 1px solid black;
+}
+.flow-fir{
+	float: left;
+}
+.flow-thir{
+	float: right;
+}
+.flow-sec{
+	margin-left: 260px;
+	margin-right: 260px;
+}
+/*瀑布流部分结束*/
